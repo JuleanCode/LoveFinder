@@ -3,12 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LoveFinder.MainPage">
 
-    <StackLayout Padding="24">
-        <Label Text="Login" FontSize="Title" Padding="30,10,30,10"/>
-        <Entry x:Name="Email" Placeholder="Email"/>
-        <Entry x:Name="Password" Placeholder="Password"/>
-        <Button Text="Login" Style="{StaticResource btnMain}" Clicked="Login_Clicked" />
-        <Button Text="Register" Style="{StaticResource btnMain}" Clicked="Register_Clicked" />
+    <StackLayout Style="{StaticResource pageMain}">
+        <Label Text="Login" Style="{StaticResource titleMain}"/>
+        <Entry x:Name="Email" Placeholder="Email" Style="{StaticResource inputMain}"/>
+        <Entry x:Name="Password" Placeholder="Password" Style="{StaticResource inputMain}"/>
+        <Button Text="Login" Clicked="Login_Clicked" Style="{StaticResource btnMain}"/>
+        <Button Text="Register" Clicked="Register_Clicked" Style="{StaticResource btnMain}"/>
     </StackLayout>
 
 </ContentPage>

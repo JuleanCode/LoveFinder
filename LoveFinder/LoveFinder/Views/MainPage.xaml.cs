@@ -22,9 +22,9 @@ namespace LoveFinder
                 DisplayAlert("Alert", "You have to fill in all fields", "OK");
             }
         }
-        private async void Register_Clicked(object sender, EventArgs e)
+        private void Register_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegisterPage());
+            Navigation.PushAsync(new RegisterPage());
         }
     }
 }

@@ -16,5 +16,20 @@ namespace LoveFinder.Views
         {
             InitializeComponent();
         }
+        private void Register_Clicked(object sender, EventArgs e)
+        {
+            if(FirstName.Text == null || LastName.Text == null || Age.Text == null || Gender.SelectedItem == null || SexualOrientation.SelectedItem == null || Email.Text == null || Password.Text == null || PasswordCheck == null)
+            {
+                DisplayAlert("Alert", "You have to fill in all fields", "OK");
+            }
+            else if(Password.Text != PasswordCheck.Text)
+            {
+                DisplayAlert("Alert", "Password and Password check are not the same", "OK");
+            }
+            else
+            {
+
+            }
+        }
     }
 }

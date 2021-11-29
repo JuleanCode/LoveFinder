@@ -17,9 +17,13 @@ namespace LoveFinder
         }
         private void Login_Clicked(object sender, EventArgs e)
         {
-            if (Email.Text == null || Password.Text == null)
+            if(Email.Text == null || Password.Text == null)
             {
                 DisplayAlert("Alert", "You have to fill in all fields", "OK");
+            }
+            else
+            {
+
             }
         }
         private void Register_Clicked(object sender, EventArgs e)

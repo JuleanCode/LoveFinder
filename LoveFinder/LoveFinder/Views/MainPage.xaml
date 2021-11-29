@@ -5,8 +5,10 @@
 
     <StackLayout Style="{StaticResource pageMain}">
         <Label Text="Login" Style="{StaticResource titleMain}"/>
+        
         <Entry x:Name="Email" Placeholder="Email" Style="{StaticResource inputMain}"/>
         <Entry x:Name="Password" Placeholder="Password" Style="{StaticResource inputMain}"/>
+        
         <Button Text="Login" Clicked="Login_Clicked" Style="{StaticResource btnMain}"/>
         <Button Text="Register" Clicked="Register_Clicked" Style="{StaticResource btnMain}"/>
     </StackLayout>

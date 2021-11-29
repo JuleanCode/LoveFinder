@@ -28,7 +28,7 @@ namespace LoveFinder.Views
             }
             else
             {
-
+                Navigation.PushAsync(new HomePage());
             }
         }
     }

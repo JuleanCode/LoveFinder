@@ -23,7 +23,7 @@ namespace LoveFinder
             }
             else
             {
-
+                Navigation.PushAsync(new HomePage());
             }
         }
         private void Register_Clicked(object sender, EventArgs e)

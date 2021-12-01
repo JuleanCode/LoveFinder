@@ -28,6 +28,7 @@ namespace LoveFinder.Views
             }
             else
             {
+                //check if user exists in DB
                 Navigation.PushAsync(new ProfilePage());
             }
         }

@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LoveFinder.Views.ProfilePage">
+             x:Class="LoveFinder.Views.ProfilePage"
+             Style="{StaticResource appBackground}">
     <StackLayout Style="{StaticResource pageMain}">
-        <Image Source="BlankProfile.jpg" Style="{StaticResource imageSecondary}"/>
+        <ImageButton Source="BlankProfile.jpg" Clicked="ProfileImage_Clicked" Style="{StaticResource btnLike}"/>
         <Label Style="{StaticResource titleMain}">User Name</Label>
 
         <Label Style="{StaticResource titleSecondary}">Bio:</Label>

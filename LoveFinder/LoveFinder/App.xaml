@@ -16,9 +16,12 @@
                 <Setter Property="BarTextColor" Value="{DynamicResource Key=primaryTitleColor}"/>
             </Style>
 
+            <Style x:Key="appBackground"  TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{DynamicResource Key=primaryBackgroundColor}"/>
+            </Style>
+
             <Style  x:Key="pageMain"  TargetType="StackLayout">
                 <Setter Property="Padding" Value="20"/>
-                <Setter Property="BackgroundColor" Value="{DynamicResource Key=primaryBackgroundColor}"/>
             </Style>
 
             <Style  x:Key="titleMain"  TargetType="Label">
@@ -64,7 +67,7 @@
 
             <Style  x:Key="btnLike"  TargetType="ImageButton">
                 <Setter Property="HorizontalOptions" Value="Center" />
-                <Setter Property="WidthRequest" Value="100" />
+                <Setter Property="WidthRequest" Value="140" />
                 <Setter Property="BackgroundColor" Value="{DynamicResource Key=primaryBackgroundColor}"/>
             </Style>
 

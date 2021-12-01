@@ -14,7 +14,16 @@ namespace LoveFinder.Views
     {
         public HomePage()
         {
+            //get all users of the app so the player can swipe
             InitializeComponent();
+        }
+        private void Like_Clicked(object sender, EventArgs e)
+        {
+            //send the data to the db
+        }
+        private void dislike_Clicked(object sender, EventArgs e)
+        {
+            //send the data to the db
         }
     }
 }

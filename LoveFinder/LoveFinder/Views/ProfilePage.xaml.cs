@@ -22,5 +22,12 @@ namespace LoveFinder.Views
             Navigation.PushAsync(new HomePage());
             
         }
+        
+        private void ProfileImage_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new ProfilePricturesPage());
+
+        }
     }
 }

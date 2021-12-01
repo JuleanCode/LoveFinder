@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoveFinder.Views.ProfilePricturesPage"
+             Style="{StaticResource appBackground}">
+    <StackLayout Style="{StaticResource pageMain}">
+        <ImageButton Source="BlankProfile.jpg" Style="{StaticResource btnLike}"/>
+
+        <Grid>
+            <ImageButton Source="BlankProfile.png" Grid.Row="0" Grid.Column="0" Style="{StaticResource btnLike}"/>
+            <ImageButton Source="BlankProfile.png" Grid.Row="0" Grid.Column="1" Style="{StaticResource btnLike}"/>
+            <ImageButton Source="BlankProfile.png" Grid.Row="1" Grid.Column="0" Style="{StaticResource btnLike}"/>
+            <ImageButton Source="BlankProfile.png" Grid.Row="1" Grid.Column="1" Style="{StaticResource btnLike}"/>
+        </Grid>
+
+        <Button Text="Save" Style="{StaticResource btnMain}"/>
+        <Button Text="Back" Clicked="Back_Clicked" Style="{StaticResource btnMain}"/>
+    </StackLayout>
+</ContentPage>

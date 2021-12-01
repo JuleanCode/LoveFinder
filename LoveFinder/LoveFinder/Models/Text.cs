@@ -6,5 +6,12 @@ namespace LoveFinder.Models
 {
     internal class Text
     {
+        public int ID { get; set; }
+        public string Content { get; set; }
+        public int Chat_ID { get; set; }
+        public int User_ID { get; set; }
+
+        public Chat Chat { get; set; }
+        public User User { get; set; }
     }
 }

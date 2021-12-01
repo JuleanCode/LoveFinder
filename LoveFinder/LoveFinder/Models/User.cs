@@ -14,5 +14,9 @@ namespace LoveFinder.Models
         public string SexualOrientation { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+
+        public List<Chat> Chats { get; set; }
+        public List<Text> Texts { get; set; }
+        public List<Intrest> Intrests { get; set; }
     }
 }

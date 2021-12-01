@@ -88,6 +88,7 @@
 
             <Style x:Key="imageSecondary" TargetType="Image">
                 <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="WidthRequest" Value="200" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>
